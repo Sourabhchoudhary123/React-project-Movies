@@ -1,0 +1,126 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  width: 100%;
+  height: 100%;
+}
+
+.search-input {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2;
+}
+
+.input {
+  width: 310px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.search-btn{
+    width:100px;
+    height: 40px;
+    font-size:15px;
+
+}
+
+.input:hover {
+  border-color: rgb(0, 231, 0);
+  color: rgb(52, 0, 242);
+  border-width: 4px;
+  font-size: 20px;
+}
+
+.option {
+  border-radius: 100px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+}
+
+.category {
+  text-align: center;
+}
+
+.title {
+  color: white;
+  height: 100px;
+  background-color: rgb(98, 87, 87);
+  margin: 0px 0px 70px;
+  align-items: center;
+  font-size: 70px;
+  text-align: center;
+  background: #2a7b9b;
+}
+
+.poster img {
+  display: flex;
+  text-decoration: none;
+}
+
+.poster,
+h2 {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.mainposter .poster img:hover  {
+  display: flex;
+  text-decoration: none;
+  border-radius: 10px;
+  border-color: green;
+  box-shadow: 5px 5px 50px black;
+  transform: var(--tw-transform);
+}
+
+.poster img {
+  box-shadow: 5px 5px 8px rgba(128, 128, 128, 0.5);
+  
+}
+
+.mainposter h2 {
+  color: rgb(0, 0, 0);
+}
+
+.mainposter h2:hover {
+  color: blue;
+}
+.mainposter {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.pagination {
+  margin-left: 300px;
+  height: 10px;
+}
+
+.pagination:hover {
+  color: blue;
+}
+.pages:hover {
+  background-color: blue;
+  color: white;
+}
+.pages {
+  margin-right: 3px;
+}
+
+.Movie-detail .Movie-details h1{
+    color:white;
+    font-size:10px;
+    
+
+}
